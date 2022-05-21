@@ -31,10 +31,10 @@ if (a == "rock" && input == "paper" ){
 } else if (a == "paper" && input == "rock" ){
     console.log(a)
     console.log("You lost!") 
-} else if (a == "paper" && input == "scissors" ){
+} else if (a == "paper" && input ==scissors ){
     console.log(a)
     console.log("You win!") 
-} else if (a  == "scissors" && input =="paper" ){
+} else if (a == "scissors" && input =="paper" ){
     console.log(a)
     console.log("You lost!") 
 } else if (a == "scissors" && input =="scissors" ){
