@@ -1,6 +1,6 @@
-console.log("Hello World!")
+console.log("Hello Script1!")
 
-function computerplay () {
+function computerPlay () {
     let a = Math.random()
     if (a < 0.33) {
         return "rock"
@@ -11,10 +11,15 @@ function computerplay () {
     }
 }
 
-let computerSelection = computerplay()
 
-const playerSelection = prompt("Rock or Paper or Scissors?");
 
+
+
+function playRound(playerSelection, computerSelection) {
+
+playerSelection = prompt("Rock or Paper or Scissors?");
+computerSelection = computerPlay()
+    
 
 if (computerSelection == "rock" && playerSelection == "paper" ){
     console.log(computerSelection)
@@ -46,3 +51,7 @@ if (computerSelection == "rock" && playerSelection == "paper" ){
 } else {
     console.log("game over!")
  }
+  }
+  
+playRound()
+
